@@ -1,0 +1,24 @@
+{
+    "plugins": [
+        "vue"
+    ],
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+    },
+    "env": {
+        "es6":     true,
+        "browser": true,
+        "node":    true,
+        "mocha":   true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
+    "rules": {
+      "vue/script-indent": ["error",4,{"baseIndent": 1}],
+      "vue/html-indent": ["error",4,{"baseIndent": 1}]
+    }
+}

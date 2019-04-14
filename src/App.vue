@@ -1,5 +1,7 @@
 <template>
-    <h1 :class="$style['blue-title']">Vue Starter kit with Sass in css-modules</h1>
+<h1 :class="$style['blue-title']">
+        Vue Starter kit with Sass in css-modules
+    </h1>
 </template>
 
 <style lang="scss" module>
